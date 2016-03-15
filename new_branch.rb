@@ -4,7 +4,7 @@ RSpec.describe Topic, type: :model do
   pending "add some examples to (or delete) #{__FILE__}"
   let(:topic) { Topic.create!(name: RandomData.random_sentence, description: RandomData.random_paragraph) }
 
-  describe "attributes" do
+  describe "attributes" 
     it "responds to name" do
       expect(topic).to respond_to(:name)
     end
